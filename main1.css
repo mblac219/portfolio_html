@@ -49,9 +49,10 @@ li {
 a {
     font-size: 18px;
     text-decoration: none;
+    color: white;
 }
 
-a:link {
+header a:link {
     color: white;
 }
 

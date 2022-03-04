@@ -34,13 +34,14 @@ li {
     justify-items: flex-end;
 } 
 
-a {
+header a {
     font-size: 18px;
     text-decoration: none;
+    color: white;
 }
 
 a:link {
-    color: white;
+    color: white;  
 }
 
 a:hover {
@@ -56,6 +57,7 @@ div p {
 }
 div p a:link {
     color:rgb(9, 47, 65);
+    
 }
 .content {
     display: flex;
