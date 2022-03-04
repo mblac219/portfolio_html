@@ -6,9 +6,7 @@
 }
 
 body {
-    background-image: url(../portfolio_html/images/pink.jpg);
-    background-size: cover;
-    background-repeat: no-repeat; 
+    background-color: rgb(245, 245, 236);  
 }
 
 header { 
@@ -21,16 +19,6 @@ header {
     justify-content: space-between;
     padding-bottom: 40px;
     contain: layout;
-}
-
-main h1 {
-    text-align: center;
-    padding-top: 15%;
-}
-
-main h2 {
-    text-align: center;
-    padding-bottom: 30%;
 }
 
 nav ul li {
@@ -59,20 +47,26 @@ a:hover {
     color: rgb(126, 190, 241);
     font-weight: 200;   
 }
-
-h1 {
-    font-size: 50px;
+div p {
     font-family: 'Be Vietnam Pro', sans-serif;
     font-weight: 600;
-    color: white;  
-} 
-h2 {
-    font-size: 35px;
-    font-family: 'Be Vietnam Pro', sans-serif;
-    font-weight: 100;
-    color: white;  
+    font-size: 24px;
+    margin-left: 230px;
+    margin-top: 90px;
+}
+div p a:link {
+    color:rgb(9, 47, 65);
+}
+.content {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 230px;
+
 }
 
-
-    
-
+img {
+    width: 500px;
+    height: 350px;
+    padding-right: 40px;
+   
+}
