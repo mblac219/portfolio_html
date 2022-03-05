@@ -5,15 +5,19 @@
     margin: 0;
 }
 
+
 body {
     background-image: url(../portfolio_html/images/pink.jpg);
     background-size: cover;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-attachment: fixed;
 }
 
 header { 
     background-color: rgb(9, 47, 65);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+    background-position: 100%;
 }
 
 .main-header{
@@ -23,14 +27,18 @@ header {
     contain: layout;
 }
 
+main {
+    padding-top: 200px;
+}
 main h1 {
     text-align: center;
-    padding-top: 15%;
+    /* padding-top: 15%; */
+   
 }
 
 main h2 {
     text-align: center;
-    padding-bottom: 30%;
+    /* padding-bottom: 30%; */
 }
 
 nav ul li {
@@ -39,12 +47,6 @@ nav ul li {
     padding-left: 60px;
     padding-top: 40px;
 }
-
-li {
-    margin-right : 5px;
-    display: flexbox;
-    justify-items: flex-end;
-} 
 
 a {
     font-size: 18px;
@@ -74,6 +76,20 @@ h2 {
     color: white;  
 }
  
+@media screen and ( max-width: 375px) {
+   
+    nav ul li {
+        justify-content: space-between;
+        align-items: center;        
+    } 
+}
+@media screen and (max-width: 1000px) {
 
+     main {
+        padding-top: 200px;
+     }
     
-
+    
+}
+    
+    
