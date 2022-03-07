@@ -10,9 +10,10 @@ The mission was to give the viewer a way to check out work previously done with 
 
 ## Screenshot of final pages
 
-<img src="/images/portfolio1.jpg" alt="Webpage1" />
-<img src="/images/about1.jpg" alt="Webpage2" />
+<img src="/images/about1.jpg" alt="Webpage1" />
+<img src="/images/portfolio1.jpg" alt="Webpage2" />
 <img src="/images/home1.jpg" alt="Webpage3" />
+
 
 
 ## Link to Final Page
