@@ -5,7 +5,7 @@
     margin: 0;
 }
 
-
+/* choose a background color  */
 body {
     background-image: url(../portfolio_html/images/pink.jpg);
     background-size: cover;
@@ -13,13 +13,13 @@ body {
     background-position: center; 
     background-attachment: fixed;
 }
-
+/*choose nav bar background color*/
 header { 
     background-color: rgb(9, 47, 65);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
     background-position: 100%;
 }
-
+/* created class for nav bar  */
 .main-header{
     display: flex;
     justify-content: space-between;
@@ -27,20 +27,7 @@ header {
     contain: layout;
 }
 
-main {
-    padding-top: 200px;
-}
-main h1 {
-    text-align: center;
-    /* padding-top: 15%; */
-   
-}
-
-main h2 {
-    text-align: center;
-    /* padding-bottom: 30%; */
-}
-
+/* style: colors, decorations and font choice for nav */
 nav ul li {
     display: inline-block;
     font-family: 'Be Vietnam Pro', sans-serif;
@@ -62,7 +49,21 @@ a:hover {
     color: rgb(126, 190, 241);
     font-weight: 200;   
 }
+/* positioning for text */
+main {
+    padding-top: 200px;
+}
+/* font position on home page */
+main h1 {
+    text-align: center;
+    
+}
+/* font position on home page */
+main h2 {
+    text-align: center;
 
+}
+/* font family choice, color, weight and size h1 and h2 */
 h1 {
     font-size: 50px;
     font-family: 'Be Vietnam Pro', sans-serif;
@@ -76,13 +77,12 @@ h2 {
     color: white;  
 }
  
+/* responsive */
 @media screen and (max-width: 1000px) {
 
     main {
        padding-top: 200px;
     }
-   
-   
 }
    
 @media screen and ( max-width: 375px) {

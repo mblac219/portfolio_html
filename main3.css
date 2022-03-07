@@ -4,36 +4,25 @@
     padding: 0;
     margin: 0;
 }
-
+/* choose a background color  */
 body {
     background-color: rgb(245, 245, 236);  
 }
 
+/*choose nav bar background color*/
 header { 
     background-color: rgb(9, 47, 65);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-position: 100%;
 }
-
+/* created class for nav bar  */
 .main-header{
     display: flex;
     justify-content: space-between;
     padding-bottom: 40px;
-    contain: layout;
-    
+    contain: layout;    
 }
-
- p {
-    font-family: 'Be Vietnam Pro', sans-serif;
-    margin-bottom: 300px; 
-    margin-top: 150px;
-    margin-left: 200px;
-    margin-right: 200px ;
-    font-size: 18px;
-  
-
-} 
-
+/* style: colors, decorations and font choice for nav */
 nav ul li {
     display: inline-block;
     font-family: 'Be Vietnam Pro', sans-serif;
@@ -63,7 +52,16 @@ a:hover {
     font-weight: 200;      
 }
 
-
+/* font family and weight for paragraph tag */
+p {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin-bottom: 300px; 
+    margin-top: 150px;
+    margin-left: 200px;
+    margin-right: 200px ;
+    font-size: 18px;
+  
+/* responsive */
 @media screen and ( max-width: 800px) {
     p {
         margin: 150px 30px 30px 30px;
